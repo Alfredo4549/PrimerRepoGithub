@@ -12,7 +12,10 @@ PARTE 4
     1 git clone https://github.com/Alfredo4549/PrimerRepoGithub.git
 
 3. Crear un archivo descripción.txt y hacer un commit. Hacer el push al repositorio de GitHub.
-    
+    git add.
+    git commit -am "mensaje"
+    git push
+
 4. Comprobar los cambios en la web del repositorio.
 5. Crear una rama con el nombre RamaDesarrolloFront y movernos a ella.
 6. Crear un archivo index.html y hacer un commit. Hacer un push de la rama al repositorio de GiHub.
