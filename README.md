@@ -25,11 +25,15 @@ PARTE 4
 
 6. Crear un archivo index.html y hacer un commit. Hacer un push de la rama al repositorio de GiHub.
     git add .
-    
+    git commit -am "index.html creado"
+    git push origin RamaDesarrolloFront
 
 7. Comprobar la existencia de la rama y su contenido en la web del repositorio.
-8. Hacer el merge de la rama RamaDesarrolloFront a la rama master. Hacer un push de la rama al repositorio de
-GiHub.
+
+8. Hacer el merge de la rama RamaDesarrolloFront a la rama master. Hacer un push de la rama al repositorio de GitHub.
+    git checkout main
+    git merge RamaDesarrolloFront
+    
 9. Eliminar la rama RamaDesarrolloFront. Hacer un push de la rama al repositorio de GiHub y comprobar el
 resultado en la web del repositorio.
 10. Etiquetar la versión actual de la rama main y actualizar la etiqueta en Github.
