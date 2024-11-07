@@ -35,6 +35,8 @@ PARTE 4
     git merge RamaDesarrolloFront
     git push
     
-9. Eliminar la rama RamaDesarrolloFront. Hacer un push de la rama al repositorio de GiHub y comprobar el
-resultado en la web del repositorio.
+9. Eliminar la rama RamaDesarrolloFront. Hacer un push de la rama al repositorio de GiHub y comprobar el resultado en la web del repositorio.
+    git branch -d RamaDesarrolloFront
+    git push origin --delete RamaDesarrolloFront
+
 10. Etiquetar la versión actual de la rama main y actualizar la etiqueta en Github.
