@@ -33,6 +33,7 @@ PARTE 4
 8. Hacer el merge de la rama RamaDesarrolloFront a la rama master. Hacer un push de la rama al repositorio de GitHub.
     git checkout main
     git merge RamaDesarrolloFront
+    git push
     
 9. Eliminar la rama RamaDesarrolloFront. Hacer un push de la rama al repositorio de GiHub y comprobar el
 resultado en la web del repositorio.
