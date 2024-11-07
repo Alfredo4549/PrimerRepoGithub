@@ -40,3 +40,5 @@ PARTE 4
     git push origin --delete RamaDesarrolloFront
 
 10. Etiquetar la versión actual de la rama main y actualizar la etiqueta en Github.
+    git tag v1.0.0
+    git push origin v1.0.0 
